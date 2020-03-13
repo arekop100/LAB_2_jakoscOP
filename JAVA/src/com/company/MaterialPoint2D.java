@@ -1,6 +1,6 @@
 package com.company;
 
-public class MaterialPoint2D extends com.company.Point2D {
+public class MaterialPoint2D extends Point2D {
 
     private double mass = 0;
 

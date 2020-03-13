@@ -12,10 +12,8 @@ public class Calculations {
             temp_y += point2D.y;
         }
 
-        temp_x = temp_x / points.length;
-        temp_y = temp_y / points.length;
 
-        return new Point2D(temp_x, temp_y);
+        return new Point2D(temp_x/ points.length, temp_y/ points.length);
 
     }
 
@@ -31,10 +29,8 @@ public class Calculations {
             temp_mass += materialPoint2D.getMass();
         }
 
-        temp_x = temp_x/temp_mass;
-        temp_y = temp_y/temp_mass;
 
-        return new MaterialPoint2D(temp_x, temp_y ,temp_mass);
+        return new MaterialPoint2D(temp_x/temp_mass, temp_y/temp_mass,temp_mass);
 
     }
 
